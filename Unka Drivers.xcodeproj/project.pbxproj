@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B2FF4F2BEFA11600651249 /* Unka_DriversApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B2FF4E2BEFA11600651249 /* Unka_DriversApp.swift */; };
+		00B2FF512BEFA11600651249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B2FF502BEFA11600651249 /* ContentView.swift */; };
+		00B2FF532BEFA11900651249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B2FF522BEFA11900651249 /* Assets.xcassets */; };
+		00B2FF562BEFA11900651249 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B2FF552BEFA11900651249 /* Preview Assets.xcassets */; };
+		00B2FF602BEFA11900651249 /* Unka_DriversTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B2FF5F2BEFA11900651249 /* Unka_DriversTests.swift */; };
+		00B2FF6A2BEFA11900651249 /* Unka_DriversUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B2FF692BEFA11900651249 /* Unka_DriversUITests.swift */; };
+		00B2FF6C2BEFA11900651249 /* Unka_DriversUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B2FF6B2BEFA11900651249 /* Unka_DriversUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00B2FF5C2BEFA11900651249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00B2FF432BEFA11600651249 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00B2FF4A2BEFA11600651249;
+			remoteInfo = "Unka Drivers";
+		};
+		00B2FF662BEFA11900651249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00B2FF432BEFA11600651249 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00B2FF4A2BEFA11600651249;
+			remoteInfo = "Unka Drivers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B2FF4B2BEFA11600651249 /* Unka Drivers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unka Drivers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B2FF4E2BEFA11600651249 /* Unka_DriversApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unka_DriversApp.swift; sourceTree = "<group>"; };
+		00B2FF502BEFA11600651249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00B2FF522BEFA11900651249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00B2FF552BEFA11900651249 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00B2FF5B2BEFA11900651249 /* Unka DriversTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unka DriversTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B2FF5F2BEFA11900651249 /* Unka_DriversTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unka_DriversTests.swift; sourceTree = "<group>"; };
+		00B2FF652BEFA11900651249 /* Unka DriversUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unka DriversUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B2FF692BEFA11900651249 /* Unka_DriversUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unka_DriversUITests.swift; sourceTree = "<group>"; };
+		00B2FF6B2BEFA11900651249 /* Unka_DriversUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unka_DriversUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00B2FF482BEFA11600651249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B2FF582BEFA11900651249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B2FF622BEFA11900651249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B2FF422BEFA11600651249 = {
+			isa = PBXGroup;
+			children = (
+				00B2FF4D2BEFA11600651249 /* Unka Drivers */,
+				00B2FF5E2BEFA11900651249 /* Unka DriversTests */,
+				00B2FF682BEFA11900651249 /* Unka DriversUITests */,
+				00B2FF4C2BEFA11600651249 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00B2FF4C2BEFA11600651249 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00B2FF4B2BEFA11600651249 /* Unka Drivers.app */,
+				00B2FF5B2BEFA11900651249 /* Unka DriversTests.xctest */,
+				00B2FF652BEFA11900651249 /* Unka DriversUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00B2FF4D2BEFA11600651249 /* Unka Drivers */ = {
+			isa = PBXGroup;
+			children = (
+				00B2FF4E2BEFA11600651249 /* Unka_DriversApp.swift */,
+				00B2FF502BEFA11600651249 /* ContentView.swift */,
+				00B2FF522BEFA11900651249 /* Assets.xcassets */,
+				00B2FF542BEFA11900651249 /* Preview Content */,
+			);
+			path = "Unka Drivers";
+			sourceTree = "<group>";
+		};
+		00B2FF542BEFA11900651249 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				00B2FF552BEFA11900651249 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00B2FF5E2BEFA11900651249 /* Unka DriversTests */ = {
+			isa = PBXGroup;
+			children = (
+				00B2FF5F2BEFA11900651249 /* Unka_DriversTests.swift */,
+			);
+			path = "Unka DriversTests";
+			sourceTree = "<group>";
+		};
+		00B2FF682BEFA11900651249 /* Unka DriversUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00B2FF692BEFA11900651249 /* Unka_DriversUITests.swift */,
+				00B2FF6B2BEFA11900651249 /* Unka_DriversUITestsLaunchTests.swift */,
+			);
+			path = "Unka DriversUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00B2FF4A2BEFA11600651249 /* Unka Drivers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00B2FF6F2BEFA11900651249 /* Build configuration list for PBXNativeTarget "Unka Drivers" */;
+			buildPhases = (
+				00B2FF472BEFA11600651249 /* Sources */,
+				00B2FF482BEFA11600651249 /* Frameworks */,
+				00B2FF492BEFA11600651249 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unka Drivers";
+			productName = "Unka Drivers";
+			productReference = 00B2FF4B2BEFA11600651249 /* Unka Drivers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00B2FF5A2BEFA11900651249 /* Unka DriversTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00B2FF722BEFA11900651249 /* Build configuration list for PBXNativeTarget "Unka DriversTests" */;
+			buildPhases = (
+				00B2FF572BEFA11900651249 /* Sources */,
+				00B2FF582BEFA11900651249 /* Frameworks */,
+				00B2FF592BEFA11900651249 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00B2FF5D2BEFA11900651249 /* PBXTargetDependency */,
+			);
+			name = "Unka DriversTests";
+			productName = "Unka DriversTests";
+			productReference = 00B2FF5B2BEFA11900651249 /* Unka DriversTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00B2FF642BEFA11900651249 /* Unka DriversUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00B2FF752BEFA11900651249 /* Build configuration list for PBXNativeTarget "Unka DriversUITests" */;
+			buildPhases = (
+				00B2FF612BEFA11900651249 /* Sources */,
+				00B2FF622BEFA11900651249 /* Frameworks */,
+				00B2FF632BEFA11900651249 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00B2FF672BEFA11900651249 /* PBXTargetDependency */,
+			);
+			name = "Unka DriversUITests";
+			productName = "Unka DriversUITests";
+			productReference = 00B2FF652BEFA11900651249 /* Unka DriversUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00B2FF432BEFA11600651249 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					00B2FF4A2BEFA11600651249 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					00B2FF5A2BEFA11900651249 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 00B2FF4A2BEFA11600651249;
+					};
+					00B2FF642BEFA11900651249 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 00B2FF4A2BEFA11600651249;
+					};
+				};
+			};
+			buildConfigurationList = 00B2FF462BEFA11600651249 /* Build configuration list for PBXProject "Unka Drivers" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00B2FF422BEFA11600651249;
+			productRefGroup = 00B2FF4C2BEFA11600651249 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00B2FF4A2BEFA11600651249 /* Unka Drivers */,
+				00B2FF5A2BEFA11900651249 /* Unka DriversTests */,
+				00B2FF642BEFA11900651249 /* Unka DriversUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00B2FF492BEFA11600651249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B2FF562BEFA11900651249 /* Preview Assets.xcassets in Resources */,
+				00B2FF532BEFA11900651249 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B2FF592BEFA11900651249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B2FF632BEFA11900651249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00B2FF472BEFA11600651249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B2FF512BEFA11600651249 /* ContentView.swift in Sources */,
+				00B2FF4F2BEFA11600651249 /* Unka_DriversApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B2FF572BEFA11900651249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B2FF602BEFA11900651249 /* Unka_DriversTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B2FF612BEFA11900651249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B2FF6A2BEFA11900651249 /* Unka_DriversUITests.swift in Sources */,
+				00B2FF6C2BEFA11900651249 /* Unka_DriversUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00B2FF5D2BEFA11900651249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00B2FF4A2BEFA11600651249 /* Unka Drivers */;
+			targetProxy = 00B2FF5C2BEFA11900651249 /* PBXContainerItemProxy */;
+		};
+		00B2FF672BEFA11900651249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00B2FF4A2BEFA11600651249 /* Unka Drivers */;
+			targetProxy = 00B2FF662BEFA11900651249 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00B2FF6D2BEFA11900651249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00B2FF6E2BEFA11900651249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00B2FF702BEFA11900651249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Unka Drivers/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n.Unka-Drivers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00B2FF712BEFA11900651249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Unka Drivers/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n.Unka-Drivers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00B2FF732BEFA11900651249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n.Unka-DriversTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unka Drivers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Unka Drivers";
+			};
+			name = Debug;
+		};
+		00B2FF742BEFA11900651249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n.Unka-DriversTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unka Drivers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Unka Drivers";
+			};
+			name = Release;
+		};
+		00B2FF762BEFA11900651249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n.Unka-DriversUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Unka Drivers";
+			};
+			name = Debug;
+		};
+		00B2FF772BEFA11900651249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "n.Unka-DriversUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Unka Drivers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00B2FF462BEFA11600651249 /* Build configuration list for PBXProject "Unka Drivers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B2FF6D2BEFA11900651249 /* Debug */,
+				00B2FF6E2BEFA11900651249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00B2FF6F2BEFA11900651249 /* Build configuration list for PBXNativeTarget "Unka Drivers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B2FF702BEFA11900651249 /* Debug */,
+				00B2FF712BEFA11900651249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00B2FF722BEFA11900651249 /* Build configuration list for PBXNativeTarget "Unka DriversTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B2FF732BEFA11900651249 /* Debug */,
+				00B2FF742BEFA11900651249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00B2FF752BEFA11900651249 /* Build configuration list for PBXNativeTarget "Unka DriversUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B2FF762BEFA11900651249 /* Debug */,
+				00B2FF772BEFA11900651249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00B2FF432BEFA11600651249 /* Project object */;
+}
